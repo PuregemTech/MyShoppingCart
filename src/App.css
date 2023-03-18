@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+.header {
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: white;
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.4em;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .product-card {
+    width: 28rem !important;
+  }
+}
+@media screen and (min-width: 410px) and (max-width: 414px) {
+  .product-card {
+    width: 22rem !important;
+  }
+  .card-body {
+    width: 20rem;
+    align-self: center;
+  }
+  .table {
+    font-size: 10px;
+  }
+  .header {
+    width: 25rem !important;
+    margin: 0 auto !important;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 480px) {
+  .product-card {
+    width: 25rem !important;
+  }
+}
+@media screen and (max-width: 393px) {
+  .product-card {
+    width: 22rem !important;
+  }
+  .table {
+    font-size: 10px;
+  }
+  .header {
+    width: 22rem !important;
+    margin: 0 auto !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .product-card {
+    width: 20rem !important;
+  }
+  .table {
+    font-size: 8px;
+  }
+  .header {
+    width: 20rem !important;
+    margin: 0 auto !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .product-card {
+    width: 17rem !important;
+  }
+  .table {
+    font-size: 5px;
+  }
+  .header {
+    width: 18rem !important;
+    margin: 0 auto !important;
+  }
+  .cart-empty-text {
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (max-width: 280px) {
+  .product-card {
+    width: 16rem !important;
+  }
+  .table {
+    font-size: 5px;
+  }
+  .header {
+    width: 16rem !important;
+    margin: 0 auto !important;
+  }
+}
+@media screen and (max-width: 240px) {
+  .product-card {
+    width: 14rem !important;
+  }
+  .table {
+    font-size: 5px;
+  }
+  .header {
+    width: 14rem !important;
+    margin: 0 auto !important;
+  }
+  .cart-empty-text {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    max-width: 500px !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media screen and (max-width: 527px) {
+  .header {
+    max-width: 450px !important;
+    margin: 0 auto !important;
+  }
+}
