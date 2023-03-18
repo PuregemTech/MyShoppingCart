@@ -10,7 +10,7 @@ const data = {
       img: img1,
       title: "Infinix Note 12i ",
       description: "",
-      price: 179000,
+      price: 189000,
     },
     {
       id: 2,
